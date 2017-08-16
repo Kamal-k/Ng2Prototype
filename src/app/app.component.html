@@ -1,0 +1,9 @@
+<div [ngClass] = "navClicked?'nav-md':'nav-sm'">
+    <div class="container body">
+        <div class="main_container">
+            <app-left-nav (navClickedOutput) = "test($event)"></app-left-nav>
+            <router-outlet></router-outlet>
+            <app-footer></app-footer>
+        </div>
+    </div>
+</div>

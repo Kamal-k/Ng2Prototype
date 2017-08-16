@@ -1,0 +1,83 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "gentelella-k"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "outDir": "dist",
+      "assets": [
+        "assets",
+        "api",
+        "favicon.ico"
+      ],
+      "index": "index.html",
+      "main": "main.ts",
+      "polyfills": "polyfills.ts",
+      "test": "test.ts",
+      "tsconfig": "tsconfig.app.json",
+      "testTsconfig": "tsconfig.spec.json",
+      "prefix": "app",
+      "styles": [
+        "styles.css"
+      ],
+      "scripts": [
+        "../src/assets/vendors/jquery/dist/jquery.min.js",
+        "../src/assets/vendors/bootstrap/dist/js/bootstrap.min.js",
+        "../src/assets/vendors/fastclick/lib/fastclick.js",
+        "../src/assets/vendors/nprogress/nprogress.js",
+        "../src/assets/vendors/Chart.js/dist/Chart.min.js",
+        "../src/assets/vendors/gauge.js/dist/gauge.min.js",
+        "../src/assets/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js",
+        "../src/assets/vendors/iCheck/icheck.min.js",
+        "../src/assets/vendors/skycons/skycons.js",
+        "../src/assets/vendors/Flot/jquery.flot.js",
+        "../src/assets/vendors/Flot/jquery.flot.pie.js",
+        "../src/assets/vendors/Flot/jquery.flot.time.js",
+        "../src/assets/vendors/Flot/jquery.flot.stack.js",
+        "../src/assets/vendors/Flot/jquery.flot.resize.js",
+        "../src/assets/vendors/flot.orderbars/js/jquery.flot.orderBars.js",
+        "../src/assets/vendors/flot-spline/js/jquery.flot.spline.min.js",
+        "../src/assets/vendors/flot.curvedlines/curvedLines.js",
+        "../src/assets/vendors/DateJS/build/date.js",
+        "../src/assets/vendors/jqvmap/dist/jquery.vmap.js",
+        "../src/assets/vendors/jqvmap/dist/maps/jquery.vmap.world.js",
+        "../src/assets/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js",
+        "../src/assets/vendors/moment/min/moment.min.js",
+        "../src/assets/vendors/bootstrap-daterangepicker/daterangepicker.js",
+        "../src/assets/js/custom.js"
+      ],
+      "environmentSource": "environments/environment.ts",
+      "environments": {
+        "dev": "environments/environment.ts",
+        "prod": "environments/environment.prod.ts"
+      }
+    }
+  ],
+  "e2e": {
+    "protractor": {
+      "config": "./protractor.conf.js"
+    }
+  },
+  "lint": [
+    {
+      "project": "src/tsconfig.app.json"
+    },
+    {
+      "project": "src/tsconfig.spec.json"
+    },
+    {
+      "project": "e2e/tsconfig.e2e.json"
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}

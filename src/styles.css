@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*Bootstrap*/
+@import 'assets/vendors/bootstrap/dist/css/bootstrap.min.css'; 
+/*Font Awesome*/
+@import 'assets/vendors/font-awesome/css/font-awesome.min.css';
+/*NProgress*/
+@import 'assets/vendors/nprogress/nprogress.css';
+/*iCheck*/
+@import 'assets/vendors/iCheck/skins/flat/green.css';
+/*bootstrap-progressbar*/
+@import 'assets/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css';
+/*JQVMap*/
+@import 'assets/vendors/jqvmap/dist/jqvmap.min.css';
+/*bootstrap-daterangepicker*/
+@import 'assets/vendors/bootstrap-daterangepicker/daterangepicker.css';
+/*highcharts*/
+@import '../node_modules/highcharts/css/highcharts.css';
+/*Custom Theme Style*/
+@import 'assets/css/custom.min.css';

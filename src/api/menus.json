@@ -1,0 +1,143 @@
+{
+    "branding": [
+        {
+            "title": "Gentellela Alela!",
+            "logo": "fa fa-paw"
+        }
+    ],
+    "generalMenus": [
+        {
+            "name": "Home",
+            "parentIcon": "fa fa-home",
+            "childrenMenus": [
+                {"name": "Dashboard", "link": "index"}, 
+                {"name": "Dashboard2", "link": "index2"}, 
+                {"name": "Dashboard3", "link": "index3"}
+            ]
+        },
+        {
+            "name": "Forms",
+            "parentIcon": "fa fa-edit",
+            "childrenMenus": [
+                {"name": "General Form", "link": "form"}, 
+                {"name": "Advanced Components", "link": "form_advanced"}, 
+                {"name": "Form Validation", "link": "form_validation"},
+                {"name": "Form Wizard", "link": "form_wizards"}, 
+                {"name": "Form Upload", "link": "form_upload"}, 
+                {"name": "Form Buttons", "link": "form_buttons"}
+            ]
+        },
+        {
+            "name": "UI Elements",
+            "parentIcon": "fa fa-desktop",
+            "childrenMenus": [
+                {"name": "General Elements", "link": "general_elements"}, 
+                {"name": "Media Gallery", "link": "media_gallery"}, 
+                {"name": "Typography", "link": "typography"},
+                {"name": "Icons", "link": "icons"}, 
+                {"name": "Glyphicons", "link": "glyphicons"}, 
+                {"name": "Widgets", "link": "widgets"},
+                {"name": "Invoice", "link": "invoice"}, 
+                {"name": "Inbox", "link": "inbox"}, 
+                {"name": "Calendar", "link": "calendar"}
+            ]
+        },
+        {
+            "name": "Tables",
+            "parentIcon": "fa fa-table",
+            "childrenMenus": [
+                {"name": "Tables", "link": "tables"}, 
+                {"name": "Table Dynamic", "link": "tables_dynamic"}
+            ]
+        },
+        {
+            "name": "Data Presentation",
+            "parentIcon": "fa fa-bar-chart-o",
+            "childrenMenus": [
+                {"name": "Chart JS", "link": "chartjs"}, 
+                {"name": "Chart JS2", "link": "chartjs2"}, 
+                {"name": "Moris JS", "link": "morisjs"},
+                {"name": "ECharts", "link": "e_charts"}, 
+                {"name": "Other Charts", "link": "other_charts"}
+            ]
+        },
+        {
+            "name": "Layouts",
+            "parentIcon": "fa fa-clone",
+            "childrenMenus": [
+                {"name": "Fixed Sidebar", "link": "fixed_sidebar"}, 
+                {"name": "Fixed Footer", "link": "fixed_footer"}
+            ]
+        }
+    ],
+    
+    "liveMenus": [
+        {
+            "name": "Additional Pages",
+            "parentIcon": "fa fa-bug",
+            "dropeDownArrow": "fa fa-chevron-down",
+            "childrenMenus": [
+                {"name": "E-commerce", "link": "ecommerce"}, 
+                {"name": "Projects", "link": "projects"}, 
+                {"name": "Project Detail", "link": "project_detail"},
+                {"name": "Contacts", "link": "contacts"}, 
+                {"name": "Profile", "link": "profile"}
+            ]
+        },
+        {
+            "name": "Extras",
+            "parentIcon": "fa fa-windows",
+            "dropeDownArrow": "fa fa-chevron-down",
+            "childrenMenus": [
+                {"name": "403 Error", "link": "page_403"}, 
+                {"name": "404 Error", "link": "page_404"}, 
+                {"name": "500 Error", "link": "page_500"},
+                {"name": "Plain Page", "link": "plain_page"}, 
+                {"name": "Login Page", "link": "login"},
+                {"name": "Pricing Tables", "link": "pricing_tables"}
+            ]
+        },
+        {
+            "name": "Multilevel Menu",
+            "parentIcon": "fa fa-sitemap",
+            "dropeDownArrow": "fa fa-chevron-down",
+            "childrenMenus": [
+                {"name": "Level One"}, 
+                {"name": "Level One"}, 
+                {
+                    "name": "Level One",
+                    "level2child": [
+                        {"name": "Level Two", "link": "level2"}, 
+                        {"name": "Level Two", "link": "level2"},
+                        {"name": "Level Two", "link": "level2"} 
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Landing Page",
+            "parentIcon": "fa fa-laptop",
+            "label label-success": "label label-success"
+        }
+    ],
+
+    "bottomMenus": [
+        {
+            "name": "Settings",
+            "parentIcon": "glyphicon glyphicon-cog"
+        },
+        {
+            "name": "FullScreen",
+            "parentIcon": "glyphicon glyphicon-fullscreen"
+        },
+        {
+            "name": "Lock",
+            "parentIcon": "glyphicon glyphicon-eye-close"
+        },
+        {
+            "name": "Logout",
+            "link": "login",
+            "parentIcon": "glyphicon glyphicon-off"
+        }
+    ]
+}

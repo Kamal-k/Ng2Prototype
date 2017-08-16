@@ -1,0 +1,22 @@
+.nav.child_menu li {
+    padding-left: 0;
+}
+
+.nav.child_menu>li>a {
+    padding-left: 36px;
+}
+
+.nav.child_menu>li>a.active {
+    background: rgba(255,255,255,.05);
+}
+
+.col-md-3.left_col {
+    min-height: 100%;
+    width: 230px;
+    padding: 0;
+    position: absolute;
+    display: -ms-flexbox;
+    display: flex;
+    z-index: 1;
+}
+
