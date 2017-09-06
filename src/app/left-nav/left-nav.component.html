@@ -63,7 +63,7 @@
 			<div class="menu_section">
 				<h3>Mega Menu</h3>
 				<ul class="nav side-menu">
-					<li *ngFor="let menu of testMenu; let m = index" routerLinkActive="active">
+					<li *ngFor="let menu of megaMenus; let m = index" routerLinkActive="active">
 						<a routerLink="{{menu.childrenMenus[0].link}}">
 							<i class="{{menu.parentIcon}}"></i>
 							{{menu.name}}

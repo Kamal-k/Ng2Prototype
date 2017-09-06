@@ -1,4 +1,4 @@
-import { Directive } from '@angular/core';
+import { Directive, OnInit } from '@angular/core';
 declare var $:any, moment:any
 
 @Directive({

@@ -1,6 +1,6 @@
 import { Directive, ElementRef, Input } from '@angular/core';
 declare var require:any, chart:any;
-const Highcharts = require('highcharts/js/highcharts.js');
+const Highcharts = require('highcharts');
 
 require('../../node_modules/highcharts/js/highcharts-more.js')(Highcharts);
 require('../../node_modules/highcharts/modules/solid-gauge.js')(Highcharts);

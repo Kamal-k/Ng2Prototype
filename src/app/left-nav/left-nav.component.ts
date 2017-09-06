@@ -7,6 +7,7 @@ import { LeftNavService } from './left-nav.service';
   styleUrls: ['./left-nav.component.css'],
   providers: [LeftNavService]
 })
+
 export class LeftNavComponent implements OnInit {
 
   @Input() leftMenu:any
@@ -22,27 +23,7 @@ export class LeftNavComponent implements OnInit {
   bottomMenus:any
   branding:any
   firstLink:any
-  testMenu=[
-      {
-          "name": "About",
-          "parentIcon": "fa fa-bug",
-          "dropeDownArrow": "fa fa-chevron-down",
-          "childrenMenus": [
-              {"name": "Company", "link": "company"}, 
-              {"name": "People", "link": "people"}, 
-              {"name": "Clients", "link": "clients"}
-          ]
-      },
-      {
-          "name": "Services",
-          "parentIcon": "fa fa-windows",
-          "dropeDownArrow": "fa fa-chevron-down",
-          "childrenMenus": [
-              {"name": "Our Method", "link": "our_method"}, 
-              {"name": "Strategic UX", "link": "strategic_ux"}
-          ]
-      }
-  ];
+  
   
   getMenus(){
     this.leftnavSvc.getMenus()
@@ -66,8 +47,6 @@ export class LeftNavComponent implements OnInit {
       // v1.style.display='block';
     }
 
-  ngOnInit() {
-    console.log(this.testMenu);
-  }
+  ngOnInit() { }
 
 }

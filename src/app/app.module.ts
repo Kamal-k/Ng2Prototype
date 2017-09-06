@@ -1,3 +1,4 @@
+// import { platformBrowserDynamic }  from '@angular/platform-browser-dynamic';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -23,6 +24,11 @@ import { Highcharts1Directive } from './highcharts1.directive';
 import { DeviceUsagePieDirective } from './device-usage-pie.directive';
 import { DateRangePickerDirective } from './date-range-picker.directive';
 import { QuickSettingsGaugeDirective } from './quick-settings-gauge.directive';
+import { WorldmapDirective } from './worldmap.directive';
+import { WeatherDirective } from './weather.directive';
+import { BargraphDirective } from './bargraph.directive';
+
+declare var require:any
 
 @NgModule({
   declarations: [
@@ -34,7 +40,10 @@ import { QuickSettingsGaugeDirective } from './quick-settings-gauge.directive';
     Highcharts1Directive,
     DeviceUsagePieDirective,
     DateRangePickerDirective,
-    QuickSettingsGaugeDirective
+    QuickSettingsGaugeDirective,
+    WorldmapDirective,
+    WeatherDirective,
+    BargraphDirective
   ],
   imports: [
     BrowserModule,
@@ -42,9 +51,12 @@ import { QuickSettingsGaugeDirective } from './quick-settings-gauge.directive';
     HttpModule,
     AppRoutingModule,
     ProgressbarModule.forRoot()
+    // ChartModule.forRoot(require('highcharts/highmaps'))
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+// platformBrowserDynamic().bootstrapModule(AppModule);
 

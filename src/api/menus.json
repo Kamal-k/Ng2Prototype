@@ -5,6 +5,7 @@
             "logo": "fa fa-paw"
         }
     ],
+    
     "generalMenus": [
         {
             "name": "Home",
@@ -119,6 +120,28 @@
             "parentIcon": "fa fa-laptop",
             "label label-success": "label label-success"
         }
+    ],
+
+    "megaMenus": [
+      {
+          "name": "About",
+          "parentIcon": "fa fa-bug",
+          "dropeDownArrow": "fa fa-chevron-down",
+          "childrenMenus": [
+              {"name": "Company", "link": "company"}, 
+              {"name": "People", "link": "people"}, 
+              {"name": "Clients", "link": "clients"}
+          ]
+      },
+      {
+          "name": "Services",
+          "parentIcon": "fa fa-windows",
+          "dropeDownArrow": "fa fa-chevron-down",
+          "childrenMenus": [
+              {"name": "Our Method", "link": "our_method"}, 
+              {"name": "Strategic UX", "link": "strategic_ux"}
+          ]
+      }
     ],
 
     "bottomMenus": [

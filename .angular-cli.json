@@ -45,8 +45,7 @@
         "../src/assets/vendors/jqvmap/dist/maps/jquery.vmap.world.js",
         "../src/assets/vendors/jqvmap/examples/js/jquery.vmap.sampledata.js",
         "../src/assets/vendors/moment/min/moment.min.js",
-        "../src/assets/vendors/bootstrap-daterangepicker/daterangepicker.js",
-        "../src/assets/js/custom.js"
+        "../src/assets/vendors/bootstrap-daterangepicker/daterangepicker.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

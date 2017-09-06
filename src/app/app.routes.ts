@@ -118,7 +118,7 @@ const routes: Routes = [
       {path:"people", component:PeopleComponent},
       {path:"clients", component:ClientsComponent},
       {path:"our_method", component:OurMethodComponent},
-      {path:"strategic_ux", component:StrategicUxComponent},
+      {path:"strategic_ux", component:StrategicUxComponent}
 ]
 
 
